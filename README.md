@@ -1,40 +1,44 @@
-# Python Snake Water Gun Game
+# Snake Water Gun Game
 
-A command-line Snake, Water, Gun game developed in Python as part of the CodeWithHarry 100 Days of Code challenge.
-
-## Overview
-
-This project implements the classic Snake, Water, Gun game using Python fundamentals. The computer randomly selects an option, while the player enters their choice. A dedicated `checkWin()` function evaluates the game result.
+A simple Python command-line game where the player competes against the computer.
 
 ## Game Rules
-
-| Choice | Value |
-|---|---:|
-| Snake | `-1` |
-| Water | `0` |
-| Gun | `1` |
 
 - Gun beats Snake
 - Snake beats Water
 - Water beats Gun
-- Same choices result in a draw
+- Same choice = Draw
 
-## Concepts Used
+## Features
 
-- Python functions
-- `if-elif-else` statements
+- Random computer choice
 - User input
-- Random selection
-- Variables and lists
-- Basic game logic
+- Win, lose, and draw detection
+- Function-based game logic
+- Command-line interface
 
-## Requirements
+## Technologies Used
 
-- Python 3.x
+- Python 3
+- random module
 
 ## How to Run
 
-Clone the repository:
+python main.py
 
-```bash
-git clone https://github.com/ahmadraza-blip/python-snake-water-gun-game.git
+## Input Options
+
+-1 = Snake
+0 = Water
+1 = Gun
+
+## Learning Objective
+
+This project demonstrates Python fundamentals such as:
+
+- Variables
+- User input
+- If-else statements
+- Functions
+- Random selection
+- Conditional logic
